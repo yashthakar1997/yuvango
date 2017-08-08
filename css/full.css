@@ -9,7 +9,7 @@ html {
 }
 
 body {
-   background: url('../background.jpg') no-repeat center center fixed;
+   background: url('../background.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -18,10 +18,11 @@ body {
 
 
 .footer {
+  color: #eee;
+  background-color: rgba(0,0,0,.6);
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 25px;
-  background-color: #fff;
+  height: 40px;
 }
