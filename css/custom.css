@@ -1,0 +1,45 @@
+/*
+ * Start Bootstrap - Full (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+   background: url('../background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.panel{
+     opacity: 0.9;
+     margin-bottom: 120px;
+ }
+.panel-default>.panel-heading {
+color: #eee;
+background-color: #222222;
+border-color: rgba(255,255,255,.15);
+}
+.panel-body {
+    padding: 25px;
+    background-color: rgba(252, 134, 0, 0.3);
+}
+.panel:hover {
+    opacity: 1;
+}
+
+.footer {
+  color: #eee;
+  background-color: rgba(0,0,0,.6);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  /* Set the fixed height of the footer here */
+  height: 211px;
+}
